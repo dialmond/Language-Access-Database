@@ -4,7 +4,7 @@ import { Timeline } from "vis-timeline/standalone";
 import "vis-timeline/styles/vis-timeline-graph2d.min.css";
 
 const SHEET_ID = "16UtlJFycIEUffjiRWpJymOkRGsJjq15W-UhFkBnwxw4";
-const API_KEY = "AIzaSyBUx1B1zDWEUhMINgyZnPRuK63yJsta_vU"; // Need to actually add proper API key.
+const API_KEY = "${{ secrets.API_KEY }}"; 
 const RANGE = "Data!A:AD"; // Put areas to include in visualization. Update if columns and rows change.
 
 const TimelineApp = () => {
