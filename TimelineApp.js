@@ -63,6 +63,12 @@ const TimelineApp = () => {
       <div ref={timelineRef} style={{ height: "500px" }}></div>
     </div>
   );
+return (
+    <script type="text/javascript">
+    var timeline_json = response.json(); 
+    window.timeline = new TL.Timeline('timeline-embed', timeline_json);
+</script>
+  );
 };
 
 export default TimelineApp;
