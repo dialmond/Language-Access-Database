@@ -4,7 +4,7 @@ import { Timeline } from "vis-timeline/standalone";
 import './Timeline.css';
 
 
-const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS3u5fcAva6Kfvn_b-i6HP1DYhbjDjSnOTfMnAH-KiaDJRHQcIquizOpSfrkVRsIcugG1MmutirHftr/pub?gid=0&single=true&output=csv"; // Replace with the actual URL
+const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRr0E17IGzLeGEovTfL7ohVa6FCTCfr8WLgh6ckhUj7IU-2dKdy1sKEnc13mtAY6-osR71A0J1XuXbr/pub?gid=0&single=true&output=csv";
 
 const TimelineApp = () => {
   const [data, setData] = useState([]);
