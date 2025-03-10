@@ -12,8 +12,5 @@ git init
 git add -A
 git commit -m 'deploy'
 
-deploying to https://{codyhmelar13.github.io (see https://pages.github.com for instructions)
-git push -f git@github.com:codyhmelar13/codyhmelar13.github.io.git main
-
 deploying to https://codyhmelar13.github.io/language-access-database
 git push -f git@github.com:codyhmelar13/Language-Access-Database.git main:gh-pages

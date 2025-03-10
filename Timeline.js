@@ -17,5 +17,5 @@
     // optionally, a third argument with configuration options can be passed.
     // See below for more about options.
     timeline = new TL.Timeline('timeline-embed',
-    'https://docs.google.com/spreadsheets/d/e/2PACX-1vRr0E17IGzLeGEovTfL7ohVa6FCTCfr8WLgh6ckhUj7IU-2dKdy1sKEnc13mtAY6-osR71A0J1XuXbr/pubhtml');
+    'https://docs.google.com/spreadsheets/d/e/2PACX-1vRr0E17IGzLeGEovTfL7ohVa6FCTCfr8WLgh6ckhUj7IU-2dKdy1sKEnc13mtAY6-osR71A0J1XuXbr/pub?gid=0&single=true&output=csv');
 </script>
