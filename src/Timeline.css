@@ -1,0 +1,50 @@
+.appWrapper {
+  display: flex;
+}
+
+.timelineWrapper {
+  border: 4px solid black;
+  flex: 1;
+}
+
+.comparisonWrapper {
+  /*position: absolute;
+  top: 0;
+  z-index: 1;
+
+  display: flex;*/
+  max-width: 400px;
+}
+
+.comparisonWrapper div {
+  max-width: 400px;
+  max-height: 200px;
+  border: 2px dashed black;
+  padding: 1rem;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+/*Colors for the different statuses and whatnot*/
+.Proposed, .vis-selected.Proposed {
+  background-color: yellow;
+}
+.Inactive, .vis-selected.Inactive{
+  background-color: red;
+}
+.Active, .vis-selected.Active {
+  background-color: lightgreen;
+}
+.vis-selected {
+  border: 2px solid black;
+}
