@@ -1,34 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
 .appWrapper {
   display: flex;
+  flex-flow: column-reverse nowrap;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .timelineWrapper {
   border: 4px solid black;
   flex: 1;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.timelineContainer {
+  height: 100%;
 }
 
 .comparisonWrapper {
-  position: absolute;
+  /*position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 1;*/
 
   display: flex;
+  max-height: 66vh;
+  resize: vertical;
+  overflow-y: hidden;
+  overflow-x: auto;
   /*max-width: 400px;*/
 }
 
 .comparisonWrapper div {
-  max-width: 400px;
+  max-width: 100vw;
+  width: 400px;
   /*max-height: 200px;*/
   border: 2px dashed black;
   padding: 1rem;
   position: relative;
   overflow-y: auto;
   overflow-x: hidden;
+  margin: 0.25rem;
 }
 .close-btn {
   position: absolute;
   top: 5px;
   right: 5px;
+}
+
+.selectWrapper {
+  margin-bottom: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 .selected {

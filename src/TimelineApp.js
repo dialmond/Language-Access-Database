@@ -82,6 +82,7 @@ const TimelineApp = () => {
         end: "2026-01-01",
         orientation: "both",
         zoomMin: 1000 * 60 * 60 * 240,
+        height: "100%",
       };
       const timeline = new Timeline(containerRef.current);
       timeline.setOptions(options);
@@ -204,7 +205,7 @@ const TimelineApp = () => {
             ))}
           </select>
         </div>
-        <div ref={containerRef}></div>
+        <div className="timelineContainer" ref={containerRef}></div>
       </div>
       <div ref={comparisonRef} className="comparisonWrapper"></div>
     </div>
