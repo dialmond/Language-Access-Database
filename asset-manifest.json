@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Language-Access-Database/static/css/main.74381c72.css",
+    "main.js": "/Language-Access-Database/static/js/main.fc3b9600.js",
+    "static/js/453.759128cd.chunk.js": "/Language-Access-Database/static/js/453.759128cd.chunk.js",
+    "index.html": "/Language-Access-Database/index.html",
+    "main.74381c72.css.map": "/Language-Access-Database/static/css/main.74381c72.css.map",
+    "main.fc3b9600.js.map": "/Language-Access-Database/static/js/main.fc3b9600.js.map",
+    "453.759128cd.chunk.js.map": "/Language-Access-Database/static/js/453.759128cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74381c72.css",
+    "static/js/main.fc3b9600.js"
+  ]
+}
